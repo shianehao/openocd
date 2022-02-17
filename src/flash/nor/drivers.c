@@ -9,6 +9,7 @@
 #endif
 #include "imp.h"
 
+
 /**
  * The list of built-in flash drivers.
  * @todo Make this dynamically extendable with loadable modules.
@@ -61,7 +62,6 @@ static const struct flash_driver * const flash_drivers[] = {
 	&psoc5lp_eeprom_flash,
 	&psoc5lp_nvl_flash,
 	&psoc6_flash,
-	&qn908x_flash,
 	&renesas_rpchf_flash,
 	&rp2040_flash,
 	&sh_qspi_flash,
@@ -71,6 +71,7 @@ static const struct flash_driver * const flash_drivers[] = {
 	&stm32f2x_flash,
 	&stm32lx_flash,
 	&stm32l4x_flash,
+	&stm32h5x_flash,
 	&stm32h7x_flash,
 	&stmsmi_flash,
 	&stmqspi_flash,
